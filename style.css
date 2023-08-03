@@ -110,7 +110,6 @@ body {
   margin-left: 5px;
 }
 
-
 .img-aped {
   width: 65px; 
   height: 35px;
@@ -125,3 +124,74 @@ body {
   margin-left: 35px;
 }
 
+#body {
+  margin-top: 20px ;
+}
+
+.title {
+  font-size: 30px;
+  margin:20px;
+  padding:0;
+}
+
+
+.text-1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px;
+  padding: 0;
+}
+
+.text-1 a {
+  color: black;
+}
+
+
+.name {
+  padding: 20px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+
+.input {
+  width: 50%;  
+  border: 2px solid #ccc; 
+  border-radius: 10px;
+  height: 30px;
+  margin-top: 5px; 
+}
+
+.sign-in form {
+  margin-top: 20px;
+}
+
+
+.checkbox {
+  padding: 20px;
+  font-size: 17px;
+}
+
+.checkbox input {
+  width: 18px;
+  height: 18px;
+}
+
+
+.text-2 {
+  font-size: 18px;
+  margin: 20px;
+}
+
+
+button {
+  border-radius: 30px;
+  width: 200px;
+  height: 70px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color:dimgray;
+  color: #ffffff;
+  border: none;
+  margin-left: 20px;
+}
