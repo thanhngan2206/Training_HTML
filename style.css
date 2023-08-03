@@ -110,7 +110,6 @@ body {
   margin-left: 5px;
 }
 
-
 .img-aped {
   width: 65px; 
   height: 35px;
@@ -123,5 +122,84 @@ body {
   display: flex;
   margin-bottom: -5px;
   margin-left: 35px;
+}
+
+#body {
+  margin-top: 20px;
+  /* position: absolute; */
+  /* left: 30%; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 30px;
+  margin:20px;
+  padding:0;
+}
+
+
+.sub-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px;
+  padding: 0;
+}
+
+.sub-title a {
+  color: black;
+}
+
+
+.label-input-name {
+  padding: 20px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+
+.input {
+  width: 100%;  
+  border: 2px solid #ccc; 
+  border-radius: 10px;
+  height: 30px;
+  margin-top: 5px; 
+}
+
+.sign-in form {
+  margin-top: 20px;
+}
+
+
+.receive-email-checkbox {
+  padding: 20px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.receive-email-checkbox input {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+
+.policy-text {
+  font-size: 18px;
+  margin: 20px;
+}
+
+
+.primary-btn {
+  border-radius: 30px;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color:dimgray;
+  color: #ffffff;
+  border: none;
+  margin-left: 20px;
 }
 
