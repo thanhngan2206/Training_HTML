@@ -126,8 +126,11 @@ body {
 
 #body {
   margin-top: 20px;
-  position: absolute;
-  left: 30%;
+  /* position: absolute; */
+  /* left: 30%; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .title {
@@ -137,19 +140,19 @@ body {
 }
 
 
-.text-1 {
+.sub-title {
   font-size: 18px;
   font-weight: bold;
   margin: 20px;
   padding: 0;
 }
 
-.text-1 a {
+.sub-title a {
   color: black;
 }
 
 
-.name {
+.label-input-name {
   padding: 20px;
   font-size: 17px;
   font-weight: bold;
@@ -169,30 +172,29 @@ body {
 }
 
 
-.checkbox label {
+.receive-email-checkbox {
   padding: 20px;
   font-size: 17px;
   display: flex;
   align-items: center;
 }
 
-.checkbox input {
+.receive-email-checkbox input {
   width: 16px;
   height: 16px;
   margin-right: 10px;
 }
 
 
-.text-2 {
+.policy-text {
   font-size: 18px;
   margin: 20px;
 }
 
 
-button {
+.primary-btn {
   border-radius: 30px;
-  width: 150px;
-  height: 60px;
+  padding: 20px;
   font-size: 15px;
   font-weight: bold;
   background-color:dimgray;
