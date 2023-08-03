@@ -125,7 +125,9 @@ body {
 }
 
 #body {
-  margin-top: 20px ;
+  margin-top: 20px;
+  position: absolute;
+  left: 30%;
 }
 
 .title {
@@ -155,7 +157,7 @@ body {
 
 
 .input {
-  width: 50%;  
+  width: 100%;  
   border: 2px solid #ccc; 
   border-radius: 10px;
   height: 30px;
@@ -167,14 +169,17 @@ body {
 }
 
 
-.checkbox {
+.checkbox label {
   padding: 20px;
   font-size: 17px;
+  display: flex;
+  align-items: center;
 }
 
 .checkbox input {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
 
 
@@ -186,12 +191,13 @@ body {
 
 button {
   border-radius: 30px;
-  width: 200px;
-  height: 70px;
-  font-size: 20px;
+  width: 150px;
+  height: 60px;
+  font-size: 15px;
   font-weight: bold;
   background-color:dimgray;
   color: #ffffff;
   border: none;
   margin-left: 20px;
 }
+
