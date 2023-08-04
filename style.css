@@ -20,7 +20,7 @@ body {
 }
 
 
-.logo .bg-yellow {
+.bg-yellow {
   width: 70px; 
   height: 70px; 
   border-radius: 100%;
@@ -126,8 +126,6 @@ body {
 
 #body {
   margin-top: 20px;
-  /* position: absolute; */
-  /* left: 30%; */
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -192,6 +190,13 @@ body {
 }
 
 
+.primary-btn a {
+  text-decoration: none;
+  color:#ccc;
+}
+
+
+
 .primary-btn {
   border-radius: 30px;
   padding: 20px;
@@ -203,3 +208,33 @@ body {
   margin-left: 20px;
 }
 
+.input-password {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  font-weight: normal;
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+.input-password-details {
+  display: flex;
+}
+
+.input-password-details li {
+  margin-right: 83px;
+}
+
+
+.input-password-details :last-child {
+  margin-right: 0;
+}
+
+.input-password-details-ctn {
+  display: flex;
+  margin-top: 10px;
+}
+
+.input-password-details-ctn li {
+  margin-right: 30px;
+}
