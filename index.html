@@ -29,7 +29,7 @@
       crossorigin="anonymous"
     ></script>
     <div id="wrapper">
-      <div id="header" class="container">
+      <div id="header">
         <div class="ms-2">
           <img src="./Group 1.png" alt="logo-header" class="header-img"/>
         </div>
@@ -40,7 +40,18 @@
           </form>
         </div>
         <ul id="main_menu">
-          <li><a href="#">Story</a></li>
+          <li>
+            <div class="dropdown">
+              <a class="btn btn-secondary dropdown-toggle border-0 bg-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Story 
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+          </li>
           <li><a href="#">Manufacturing</a></li>
           <li><a href="#">Products</a></li>
           <li><a href="#">Packing</a></li>
@@ -70,14 +81,13 @@
             <form>
               <div class="label-input-name">
                 <label>
-                  Email <br />
+                  Email <br /></label>
                   <input
                     class="input-form"
                     type="email"
                     id="email"
                     name="email"
                   />
-                </label>
               </div>
               <div class="label-input-name">
                 <label>Username</label><br />
